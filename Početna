@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BAN 172</title>
+    <style>
+        html{
+            overflow: hidden;
+        }
+        header{
+            height: 100px;
+        }
+        .slika{
+            background-image: url('zap1.jpg');
+            width: 100px;
+            background-repeat: no-repeat;
+            background-size: 100% ;
+        }
+        div{
+            height: 80px;
+        }
+        .ban img{
+            border-radius: 50%;
+        }
+        .naslov{
+            margin-left: 150px;
+            width: 200px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            margin-top: -20px;
+            border-radius: 20%;
+        }
+        .kontakt{
+            width: 200px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            margin-left: 900px;
+            border-radius: 20%;
+            margin-top: -110px;
+        }
+        .galerija{
+            width: 200px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            margin-left: 1200px;
+            border-radius: 20%;
+            margin-top: -120px;
+        }
+        section{
+            margin: 0 auto;
+            width: 90%;
+            height: 1500px;
+            clear: both;
+        }
+        .brlek{
+            background-color: lightgrey;
+            width: 1880px;
+            margin-top: 180px;
+            height: 150px;
+            border-radius: 2%;
+        }
+        .osoba{
+            opacity: 1;
+            height: 150px;
+            border-radius: 50%;
+            float: left;
+            z-index: 1;
+        }
+        .opis{
+            float: right;
+            margin-right: 100px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            height: 30px;
+            margin-top: -50px;
+            border-radius: 30%;
+        }
+        .ozren{
+            background-color: lightgrey;
+            width: 1880px;
+            height: 150px;
+            border-radius: 2%;
+        }
+        .alen{
+            background-color: lightgrey;
+            width: 1880px;
+            height: 150px;
+            border-radius: 2%;
+        }
+        .karlo{
+            background-color: lightgrey;
+            width: 1880px;
+            height: 150px;
+            border-radius: 2%;
+        }
+        .link img{
+            height: 30px;
+
+        }
+        .link{
+            float: right;
+            margin-top: 20px;
+            margin-right: -100px;
+        }
+    </style>
+</head>
+<body class="slika">
+
+    <header>
+        <div class="ban">
+            <img src="ban.jpg">
+        </div>
+        <div class="naslov">
+            <h1>BAN 172</h1>
+        </div>
+        
+        <div class="kontakt">
+            <h1><a href="">KONTAKT</a></h1>
+        </div>
+
+        <div class="galerija">
+            <h1><a href="">GALERIJA</a></h1>
+        </div>
+    </header>
+
+    <section>
+        <article class="brlek" >
+            <img class="osoba" src="brlek.jpg">
+            <h2>Brlek Ivan - 21</h2>
+            <p>Student druge godine Tehničkog veleučilišta u Zagrebu. Hobi: nogomet, igrice</p>
+            <div class="opis"><a href="brlek.html">Saznaj više</a></div>
+            <div class="link">
+                <a href="https://www.facebook.com/Brlek3005"><img src="fb.jpg"></a>
+                <a href="https://www.instagram.com/brlekivan/"><img src="ig.png"></a>
+                <a href="https://www.linkedin.com/in/ivan-brlek-48851b1ab/"><img src="li.png"></a>
+            </div>
+        </article>
+
+        <article class="ozren">
+            <img class="osoba" src="ozren.jpg">
+            <h2>Petrović Ozren - 20</h2>
+            <p>Student druge godine Tehničkog veleučilišta u Zagrebu. Hobi: nogomet, mađioničar</p>
+            <div class="opis"><a href="ozren.html">Saznaj više</a></div>
+            <div class="link">
+                <a href="https://www.facebook.com/Ogilooo"><img src="fb.jpg"></a>
+                <a href="https://www.instagram.com/ogii1302/"><img src="ig.png"></a>
+                <a href="https://www.linkedin.com/in/ozren-petrovic-69b0411ab"><img src="li.png"></a>
+            </div>
+        </article>
+
+        <article class="alen">
+            <img class="osoba" src="alen.jpg">
+            <h2>Tucman Alen - 21</h2>
+            <p>Student druge godine Tehničkog veleučilišta u 
+                Zagrebu. Hobi: Zrakoplovno modelarstvo</p>
+            <div class="opis"><a href="alen.html">Saznaj više</a></div>
+            <div class="link">
+                <a href="https://www.facebook.com/alen.tucman1607/"><img src="fb.jpg"></a>
+                <a href="https://www.instagram.com/alentucman/"><img src="ig.png"></a>
+                <a href="https://www.linkedin.com/in/alen-tucman-53546b1ab/"><img src="li.png"></a>
+            </div>
+        </article>
+
+        <article class="karlo">
+            <img class="osoba" src="karlo.jpg">
+            <h2>Zekić Karlo - 21</h2>
+            <p>Student druge godine Tehničkog veleučilišta u Zagrebu. Hobi: kuglanje, igrice</p>
+            <div class="opis"><a href="karlo.html">Saznaj više</a></div>
+            <div class="link">
+                <a href="https://www.facebook.com/karlo.zekic/"><img src="fb.jpg"></a>
+                <a href="https://www.instagram.com/karlo.zekic/"><img src="ig.png"></a>
+                <a href=https://www.linkedin.com/in/karlo-zeki%C4%87-5395371ab/"><img src="li.png"></a>
+            </div>
+        </article>
+    </section>
+
+</body>
+</html>
